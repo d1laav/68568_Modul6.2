@@ -96,8 +96,8 @@ fun HomeScreen(
         HomeBody(
             itemList = listOf(),
             onItemClick = navigateToItemUpdate,
-            modifier = modifier.fillMaxSize(),
-            contentPadding = innerPadding,
+            modifier = modifier.padding(innerPadding)
+                .fillMaxSize()
         )
     }
 }
